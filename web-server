@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-static -a 192.168.12.12 -p 8080 -H '{"Cache-Control": "no-cache, must-revalidate"}' ./public

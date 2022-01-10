@@ -1,0 +1,19 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "Scott Mebberson's art.",
+  "repository": "https://github.com/smebberson/art.git",
+  "author": "Scott Mebberson <scott@scottmebberson.com>",
+  "private": true,
+  "scripts": {
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "chroma-js": "0.6.x",
+    "pleasejs": "0.4.2",
+    "serve": "13.0.2",
+    "snapsvg": "0.4.x",
+    "tinycolor": "0.0.1",
+    "tinycolor2": "1.4.2"
+  }
+}
