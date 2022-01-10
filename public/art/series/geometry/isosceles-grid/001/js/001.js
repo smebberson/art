@@ -113,9 +113,7 @@
     }, 200);
   });
 
-  window.randomColor = function (space) {
-    space = space || "lch";
-
+  window.randomColor = function () {
     var digits = "0123456789abcdef",
       code = "#";
 
@@ -123,7 +121,7 @@
       code += digits.charAt(Math.floor(Math.random() * 16));
     }
 
-    return chroma(code, space);
+    return chroma(code);
   };
 
   window.deconstructColor = function (colorObj) {
