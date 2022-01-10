@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "chroma-js": "2.1.2",
-    "pleasejs": "0.4.2",
     "serve": "13.0.2",
     "snapsvg": "0.4.x",
     "tinycolor": "0.0.1",

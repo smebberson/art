@@ -430,11 +430,6 @@ path-to-regexp@2.2.1:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.2.1.tgz#90b617025a16381a879bc82a38d4e8bdeb2bcf45"
   integrity sha512-gu9bD6Ta5bwGrrU8muHzVOBFFREpp2iRkVfhBJahwJ6p6Xw20SjT0MxLnwkjOibQmGSYhiUnf2FLe7k+jcFmGQ==
 
-pleasejs@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/pleasejs/-/pleasejs-0.4.2.tgz#aaaa1a5fa6902518de7e51e3c63b5f537f823164"
-  integrity sha1-qqoaX6aQJRjeflHjxjtfU3+CMWQ=
-
 pump@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pump/-/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
