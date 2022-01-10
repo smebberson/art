@@ -13,5 +13,8 @@
     "serve": "13.0.2",
     "snapsvg": "0.5.1",
     "tinycolor2": "1.4.2"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
   }
 }
