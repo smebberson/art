@@ -117,7 +117,7 @@
                         .attr({
                             fill: triangleColor,
                             stroke: triangleColor,
-                            'stroke-width': 0.6,
+                            'stroke-width': 0.9,
                         })
                         .transform(
                             'translate(' +
@@ -146,8 +146,6 @@
                         ])
                         .attr({
                             fill: upsideDownTriangleColor,
-                            stroke: upsideDownTriangleColor,
-                            'stroke-width': 0.6,
                         })
                         .transform(
                             'translate(' +
