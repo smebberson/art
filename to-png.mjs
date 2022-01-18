@@ -1,6 +1,8 @@
 import sharp from 'sharp';
 
-sharp('test.svg')
+const [, , filename = 'test'] = process.argv;
+
+sharp(`${filename}.svg`)
     .resize({
         fit: 'cover',
         height: 2160,
@@ -8,4 +10,4 @@ sharp('test.svg')
         withoutEnlargement: true,
     })
     .png()
-    .toFile('test.png');
+    .toFile(`${filename}.png`);
