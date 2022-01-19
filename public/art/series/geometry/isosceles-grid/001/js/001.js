@@ -118,6 +118,13 @@
             paint();
         }
 
+        if (event.key === 'R') {
+            generated = '';
+            clear();
+            blueprint();
+            paint();
+        }
+
         if (event.key === 'C') {
             if (navigator.clipboard) {
                 navigator.clipboard.writeText(generated);
